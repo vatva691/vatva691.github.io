@@ -396,6 +396,8 @@
     margin-left: 55px;
     margin: auto;
     padding: 10px;
+    width: 1100px;
+
 }
 .bh-maintile img {
     margin-top: 20px;
@@ -403,31 +405,33 @@
     height: 250px;
 }
 
-.policy-table table{
+.table-responsive table{
     margin: auto;
     padding: 10px;
+    width: 1100px;
+    
 }
-.policy-table table,td,tr, th 
+.table-responsive table,td,tr, th 
 {
     border: 1px solid #000;
 }
-.policy-table table tr td.bold
+.table-responsive table tr td.bold
 {
     Font-Weight: bold;
     text-align: center;
 }
-.policy-table table tr td.result{
-    /* Width: 400px; */
+.table-responsive table tr td.result{
+    Width: 400px;
     Text-Align: right;
     Padding-Right: 5px;
 }
-.policy-table table tr td{
+.table-responsive table tr td{
     Padding-Left: 5px;
 }
-.policy-table table tr:hover
+.table-responsive table tr:hover
 {
     background:orange;
-cursor:pointer;
+    cursor:pointer;
 }
 
 #banner2 {
@@ -441,17 +445,20 @@ cursor:pointer;
 
 #banner2 .box-left{
     width: 50%;
-    margin-left: 28px;
+
+    
 }
 
 #banner2  .box-left h2 {
     font-size:48px;
     margin-top:75px;
+    margin-left: 25%;
     color:#000;
 }
 
 #banner2 .box-left p {
     color:#000;
+    margin-left: 25%;
 }
 
 #banner2 .box-left button {
@@ -466,6 +473,7 @@ cursor:pointer;
     border-radius: 20px;
     transition:0.4s;
     cursor: pointer;
+    margin-left: 25%;
 }
 
 #banner2 .box-left button:hover {
@@ -477,19 +485,11 @@ cursor:pointer;
     display: flex;
     /* justify-content: center; */
     align-items: center;
+
 }
 
 #banner2 .box-right img {
-    margin:0px 10px;
     animation :animation 3s infinite linear; 
+    text-align: right;  
 }
 
-
-
-/* Reponsive */
-
-@media screen and (max-width: 62.5em) {
-    #banner2 {
-        display: none;
-    }
-}
