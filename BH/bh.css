@@ -397,6 +397,10 @@
     margin: auto;
     padding: 10px;
 }
+
+.policy-container li{
+    text-align: center;
+}
 .bh-maintile img {
     margin-top: 20px;
     width: 750px;
@@ -404,7 +408,8 @@
 }
 
 .policy-table table{
-    margin: auto;
+    max-width: 960px;
+    margin:auto;
     padding: 10px;
 }
 .policy-table table,td,tr, th 
@@ -427,7 +432,7 @@
 .policy-table table tr:hover
 {
     background:orange;
-cursor:pointer;
+    cursor:pointer;
 }
 
 #banner2 {
@@ -473,15 +478,10 @@ cursor:pointer;
 }
 
 #banner2 .box-right {
-    padding-left:470px;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-}
-
-#banner2 .box-right img {
-    margin:0px 10px;
+    display: block;
+    margin-left: auto;
     animation :animation 3s infinite linear; 
+
 }
 
 
